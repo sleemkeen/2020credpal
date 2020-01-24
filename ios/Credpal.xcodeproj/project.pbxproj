@@ -1,0 +1,1099 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* CredpalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CredpalTests.m */; };
+		0147DC04F51041F588198C1C /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D42A327A153240349FBD7C41 /* Roboto_medium.ttf */; };
+		026ABCD783094A4A983C9A71 /* SFUIText-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C5A5D40BEE19412195ED2CC7 /* SFUIText-Italic.otf */; };
+		050EBA78D5174341A6FFBAD3 /* SFUIText-RegularG2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E85ACA2A9B347609056A917 /* SFUIText-RegularG2.otf */; };
+		05255A0B42C446E9B2E4C4FC /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9EE779F5FA94A3ABCFFFF5F /* Octicons.ttf */; };
+		09116F02FF9F455C87DD4E04 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0BE244296AE4D00BF8EB3D2 /* FontAwesome5_Brands.ttf */; };
+		0B9D3CD42A0F419387BE1391 /* SFUIText-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E4CE0E4A3C4A4F788461BFCE /* SFUIText-LightItalic.otf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		22388B1727D614FC5B306CCC /* libPods-Credpal-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF079BD39C9C5F3F9368DC79 /* libPods-Credpal-tvOS.a */; };
+		256743B0E8CF43D2AF84CB95 /* SFUIText-RegularG3.otf in Resources */ = {isa = PBXBuildFile; fileRef = 377A1AF8904042319388EE5B /* SFUIText-RegularG3.otf */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* CredpalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CredpalTests.m */; };
+		31EC7D3DE6C2448D8BFCA3C7 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26A4F40245B24873A6D24DF3 /* MaterialIcons.ttf */; };
+		341AAD157A0743228EC1CF15 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8505AAD6465A4BB79B4DA970 /* FontAwesome5_Solid.ttf */; };
+		356F6D782BD04426BE4CC12C /* SFUIText-BoldItalicG3.otf in Resources */ = {isa = PBXBuildFile; fileRef = 65FEDCADF2B7479794DBCACC /* SFUIText-BoldItalicG3.otf */; };
+		422FFD7519A74FE1A8027791 /* SFUIText-BoldItalicG2.otf in Resources */ = {isa = PBXBuildFile; fileRef = FF9273702B824C579D58CEB9 /* SFUIText-BoldItalicG2.otf */; };
+		48B8EECF80654218918B0B80 /* SFUIText-ItalicG1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C04D99C75D840B2812197DF /* SFUIText-ItalicG1.otf */; };
+		493CEB69166B48DC8F950B49 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B649757215C848808C3AE212 /* Entypo.ttf */; };
+		578E28ED18F341FF9F3C26B1 /* SFUIText-BoldItalicG1.otf in Resources */ = {isa = PBXBuildFile; fileRef = E1EB79FF3D9348E180D21FFA /* SFUIText-BoldItalicG1.otf */; };
+		5AC3A5A3CE5D4F4BA84D6825 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE33D52A3A7C417EAD42E5B9 /* Foundation.ttf */; };
+		64ED3CCA47AA453DBFEBC660 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 392EB46D7C9045AFB1BD92CB /* Fontisto.ttf */; };
+		66339C8144594BC3B1743B9A /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE50B4D1C3FF4BC087DE73F3 /* FontAwesome5_Regular.ttf */; };
+		672FA3C1EEC34EF0BD58B12E /* SFUIText-BoldG3.otf in Resources */ = {isa = PBXBuildFile; fileRef = 77A9DBBF5DC44A73957F907E /* SFUIText-BoldG3.otf */; };
+		6868B810AEB84A5A9CF11A3E /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30204697FC2B4A45909A9EDE /* EvilIcons.ttf */; };
+		696E3450618342A7A46D9754 /* SFUIText-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92DEB44403F34907A994FC52 /* SFUIText-Bold.otf */; };
+		6F3A2FF9F1914E8DABD36DA4 /* SFUIText-ItalicG2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 90336BC02B72449CAF26CE77 /* SFUIText-ItalicG2.otf */; };
+		70B9CC6F137B6AB7685F0409 /* libPods-Credpal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDFCE74C4A465B9558BBC341 /* libPods-Credpal.a */; };
+		87C998C3F09B479AADC159F6 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDD6A0C515164489AFF752CB /* Zocial.ttf */; };
+		89269268979843D899B7E330 /* SFUIText-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3B0C251DA74B818A244369 /* SFUIText-Medium.otf */; };
+		9451745FEDB444E7AE06CF11 /* SFUIText-RegularG1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 79568026A8E34E8CA3FD9B86 /* SFUIText-RegularG1.otf */; };
+		949B03DD426B4C05BC2045B3 /* SFUIText-ItalicG3.otf in Resources */ = {isa = PBXBuildFile; fileRef = DC130614B7284692AD3368D1 /* SFUIText-ItalicG3.otf */; };
+		96668D604FEC451F8A0CFD43 /* SFUIText-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6BEFC653B4BC4FB7AB4027E8 /* SFUIText-Light.otf */; };
+		A6EE6339031242CAB2DDF2C3 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 990ADD07EFE9475FA9A6FB11 /* Roboto.ttf */; };
+		A7F2E1D7E8CD4275A0A3C2D5 /* SFUIText-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DCD11063A7F2417E9066914C /* SFUIText-Semibold.otf */; };
+		A8DFBEC38980AD5F7F426FBA /* libPods-CredpalTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E9504F412CFE05F21C48C6 /* libPods-CredpalTests.a */; };
+		AA107A38C4FD4E6FBD2A32EC /* SFUIText-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 19B2DDCF7C0A4B65A8A3B741 /* SFUIText-HeavyItalic.otf */; };
+		ADCDAF42051FAB78E2EDE156 /* libPods-Credpal-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70AA746EB48044B8BC792C18 /* libPods-Credpal-tvOSTests.a */; };
+		B08C77B3CCF54B9CA9CC3CFE /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F34E8D2731F47CBB6655858 /* Ionicons.ttf */; };
+		B2FE7C90186F49988CB8AC32 /* SFUIText-BoldG1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 97D52E8A3895455AA3561F88 /* SFUIText-BoldG1.otf */; };
+		B3A9E09A8D084DF8BE88894D /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA0D76F17FB44A4A81193C5E /* rubicon-icon-font.ttf */; };
+		B9C9ADCC7C594E6CB2D545EA /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DE482EDB82A41F197B88BCD /* Feather.ttf */; };
+		BCE42EA44D9448E8852EFF17 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68B004A3421440D5A232198D /* AntDesign.ttf */; };
+		D1342A33F87342508A44630D /* SFUIText-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 20B0861E6FDB453A9FC3F51C /* SFUIText-Heavy.otf */; };
+		D1AC4A0780204FFC9A776357 /* SFUIText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 77D92525D13440AD903CA27F /* SFUIText-Regular.otf */; };
+		D1F8A1E0110443B88AEA3FEE /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84463076AF304CAF8DBCC0DE /* MaterialCommunityIcons.ttf */; };
+		D785B149CE87493589A25B78 /* SFUIText-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D72267FBE3E547B4BDC4FCC5 /* SFUIText-SemiboldItalic.otf */; };
+		DA3439ECE4014D43B27D75BC /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC0B0606404042B28830C441 /* SimpleLineIcons.ttf */; };
+		DCE15C2C4A4A439F933126ED /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9744DA4F44E49968EED06CC /* FontAwesome.ttf */; };
+		DE04A362928C412A8677EDFF /* SFUIText-BoldG2.otf in Resources */ = {isa = PBXBuildFile; fileRef = A0CF1D4297904A9188517FB6 /* SFUIText-BoldG2.otf */; };
+		F38E8D0B92144BD4BDFD98D8 /* SFUIText-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 55497DAF744C4479BBC2C974 /* SFUIText-MediumItalic.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Credpal;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "Credpal-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* CredpalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CredpalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* CredpalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CredpalTests.m; sourceTree = "<group>"; };
+		0A3B0C251DA74B818A244369 /* SFUIText-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Medium.otf"; path = "../assets/fonts/SFUIText-Medium.otf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Credpal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Credpal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Credpal/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Credpal/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Credpal/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Credpal/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Credpal/main.m; sourceTree = "<group>"; };
+		19B2DDCF7C0A4B65A8A3B741 /* SFUIText-HeavyItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-HeavyItalic.otf"; path = "../assets/fonts/SFUIText-HeavyItalic.otf"; sourceTree = "<group>"; };
+		20B0861E6FDB453A9FC3F51C /* SFUIText-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Heavy.otf"; path = "../assets/fonts/SFUIText-Heavy.otf"; sourceTree = "<group>"; };
+		26A4F40245B24873A6D24DF3 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* Credpal-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Credpal-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Credpal-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Credpal-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F34E8D2731F47CBB6655858 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		30204697FC2B4A45909A9EDE /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		377A1AF8904042319388EE5B /* SFUIText-RegularG3.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-RegularG3.otf"; path = "../assets/fonts/SFUIText-RegularG3.otf"; sourceTree = "<group>"; };
+		392EB46D7C9045AFB1BD92CB /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		4C04D99C75D840B2812197DF /* SFUIText-ItalicG1.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-ItalicG1.otf"; path = "../assets/fonts/SFUIText-ItalicG1.otf"; sourceTree = "<group>"; };
+		5429DE886DDC8B794A326652 /* Pods-Credpal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Credpal.debug.xcconfig"; path = "Target Support Files/Pods-Credpal/Pods-Credpal.debug.xcconfig"; sourceTree = "<group>"; };
+		55497DAF744C4479BBC2C974 /* SFUIText-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-MediumItalic.otf"; path = "../assets/fonts/SFUIText-MediumItalic.otf"; sourceTree = "<group>"; };
+		59623F71689673A4E6BA7080 /* Pods-Credpal-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Credpal-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Credpal-tvOS/Pods-Credpal-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5E85ACA2A9B347609056A917 /* SFUIText-RegularG2.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-RegularG2.otf"; path = "../assets/fonts/SFUIText-RegularG2.otf"; sourceTree = "<group>"; };
+		65FEDCADF2B7479794DBCACC /* SFUIText-BoldItalicG3.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-BoldItalicG3.otf"; path = "../assets/fonts/SFUIText-BoldItalicG3.otf"; sourceTree = "<group>"; };
+		68B004A3421440D5A232198D /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		6BEFC653B4BC4FB7AB4027E8 /* SFUIText-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Light.otf"; path = "../assets/fonts/SFUIText-Light.otf"; sourceTree = "<group>"; };
+		6DE482EDB82A41F197B88BCD /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		6FE9C2509492FD1884D3C65B /* Pods-Credpal-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Credpal-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Credpal-tvOSTests/Pods-Credpal-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		70AA746EB48044B8BC792C18 /* libPods-Credpal-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Credpal-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A9DBBF5DC44A73957F907E /* SFUIText-BoldG3.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-BoldG3.otf"; path = "../assets/fonts/SFUIText-BoldG3.otf"; sourceTree = "<group>"; };
+		77D92525D13440AD903CA27F /* SFUIText-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Regular.otf"; path = "../assets/fonts/SFUIText-Regular.otf"; sourceTree = "<group>"; };
+		79568026A8E34E8CA3FD9B86 /* SFUIText-RegularG1.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-RegularG1.otf"; path = "../assets/fonts/SFUIText-RegularG1.otf"; sourceTree = "<group>"; };
+		7F5417DC14DFC97283803EA1 /* Pods-CredpalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CredpalTests.debug.xcconfig"; path = "Target Support Files/Pods-CredpalTests/Pods-CredpalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84463076AF304CAF8DBCC0DE /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		8505AAD6465A4BB79B4DA970 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		90336BC02B72449CAF26CE77 /* SFUIText-ItalicG2.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-ItalicG2.otf"; path = "../assets/fonts/SFUIText-ItalicG2.otf"; sourceTree = "<group>"; };
+		92DEB44403F34907A994FC52 /* SFUIText-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Bold.otf"; path = "../assets/fonts/SFUIText-Bold.otf"; sourceTree = "<group>"; };
+		97D52E8A3895455AA3561F88 /* SFUIText-BoldG1.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-BoldG1.otf"; path = "../assets/fonts/SFUIText-BoldG1.otf"; sourceTree = "<group>"; };
+		990ADD07EFE9475FA9A6FB11 /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
+		9DBC23B211498061288A993E /* Pods-Credpal-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Credpal-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Credpal-tvOS/Pods-Credpal-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		A0CF1D4297904A9188517FB6 /* SFUIText-BoldG2.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-BoldG2.otf"; path = "../assets/fonts/SFUIText-BoldG2.otf"; sourceTree = "<group>"; };
+		B4E9504F412CFE05F21C48C6 /* libPods-CredpalTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CredpalTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B649757215C848808C3AE212 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		BC0B0606404042B28830C441 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		BE33D52A3A7C417EAD42E5B9 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		C5A5D40BEE19412195ED2CC7 /* SFUIText-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Italic.otf"; path = "../assets/fonts/SFUIText-Italic.otf"; sourceTree = "<group>"; };
+		C9744DA4F44E49968EED06CC /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		C9EE779F5FA94A3ABCFFFF5F /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		D0799F70900835D266710031 /* Pods-CredpalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CredpalTests.release.xcconfig"; path = "Target Support Files/Pods-CredpalTests/Pods-CredpalTests.release.xcconfig"; sourceTree = "<group>"; };
+		D42A327A153240349FBD7C41 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		D72267FBE3E547B4BDC4FCC5 /* SFUIText-SemiboldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-SemiboldItalic.otf"; path = "../assets/fonts/SFUIText-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		DC130614B7284692AD3368D1 /* SFUIText-ItalicG3.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-ItalicG3.otf"; path = "../assets/fonts/SFUIText-ItalicG3.otf"; sourceTree = "<group>"; };
+		DCD11063A7F2417E9066914C /* SFUIText-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-Semibold.otf"; path = "../assets/fonts/SFUIText-Semibold.otf"; sourceTree = "<group>"; };
+		DE50B4D1C3FF4BC087DE73F3 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		E1EB79FF3D9348E180D21FFA /* SFUIText-BoldItalicG1.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-BoldItalicG1.otf"; path = "../assets/fonts/SFUIText-BoldItalicG1.otf"; sourceTree = "<group>"; };
+		E4CE0E4A3C4A4F788461BFCE /* SFUIText-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-LightItalic.otf"; path = "../assets/fonts/SFUIText-LightItalic.otf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EDFCE74C4A465B9558BBC341 /* libPods-Credpal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Credpal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAF753A0FE637B8550D0866 /* Pods-Credpal-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Credpal-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Credpal-tvOSTests/Pods-Credpal-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0BE244296AE4D00BF8EB3D2 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		FA0D76F17FB44A4A81193C5E /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		FD6998BCDE7232F4CB65D86B /* Pods-Credpal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Credpal.release.xcconfig"; path = "Target Support Files/Pods-Credpal/Pods-Credpal.release.xcconfig"; sourceTree = "<group>"; };
+		FDD6A0C515164489AFF752CB /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		FF079BD39C9C5F3F9368DC79 /* libPods-Credpal-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Credpal-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9273702B824C579D58CEB9 /* SFUIText-BoldItalicG2.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFUIText-BoldItalicG2.otf"; path = "../assets/fonts/SFUIText-BoldItalicG2.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8DFBEC38980AD5F7F426FBA /* libPods-CredpalTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B9CC6F137B6AB7685F0409 /* libPods-Credpal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22388B1727D614FC5B306CCC /* libPods-Credpal-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCDAF42051FAB78E2EDE156 /* libPods-Credpal-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* CredpalTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* CredpalTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = CredpalTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Credpal */ = {
+			isa = PBXGroup;
+			children = (
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = Credpal;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				EDFCE74C4A465B9558BBC341 /* libPods-Credpal.a */,
+				FF079BD39C9C5F3F9368DC79 /* libPods-Credpal-tvOS.a */,
+				70AA746EB48044B8BC792C18 /* libPods-Credpal-tvOSTests.a */,
+				B4E9504F412CFE05F21C48C6 /* libPods-CredpalTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* Credpal */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* CredpalTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				9D53DB96AA7AF27BAD34D827 /* Pods */,
+				FD5D9EB4D96E455E8C7B1D3E /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Credpal.app */,
+				00E356EE1AD99517003FC87E /* CredpalTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Credpal-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Credpal-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D53DB96AA7AF27BAD34D827 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5429DE886DDC8B794A326652 /* Pods-Credpal.debug.xcconfig */,
+				FD6998BCDE7232F4CB65D86B /* Pods-Credpal.release.xcconfig */,
+				59623F71689673A4E6BA7080 /* Pods-Credpal-tvOS.debug.xcconfig */,
+				9DBC23B211498061288A993E /* Pods-Credpal-tvOS.release.xcconfig */,
+				EFAF753A0FE637B8550D0866 /* Pods-Credpal-tvOSTests.debug.xcconfig */,
+				6FE9C2509492FD1884D3C65B /* Pods-Credpal-tvOSTests.release.xcconfig */,
+				7F5417DC14DFC97283803EA1 /* Pods-CredpalTests.debug.xcconfig */,
+				D0799F70900835D266710031 /* Pods-CredpalTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD5D9EB4D96E455E8C7B1D3E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68B004A3421440D5A232198D /* AntDesign.ttf */,
+				B649757215C848808C3AE212 /* Entypo.ttf */,
+				30204697FC2B4A45909A9EDE /* EvilIcons.ttf */,
+				6DE482EDB82A41F197B88BCD /* Feather.ttf */,
+				C9744DA4F44E49968EED06CC /* FontAwesome.ttf */,
+				F0BE244296AE4D00BF8EB3D2 /* FontAwesome5_Brands.ttf */,
+				DE50B4D1C3FF4BC087DE73F3 /* FontAwesome5_Regular.ttf */,
+				8505AAD6465A4BB79B4DA970 /* FontAwesome5_Solid.ttf */,
+				392EB46D7C9045AFB1BD92CB /* Fontisto.ttf */,
+				BE33D52A3A7C417EAD42E5B9 /* Foundation.ttf */,
+				2F34E8D2731F47CBB6655858 /* Ionicons.ttf */,
+				84463076AF304CAF8DBCC0DE /* MaterialCommunityIcons.ttf */,
+				26A4F40245B24873A6D24DF3 /* MaterialIcons.ttf */,
+				C9EE779F5FA94A3ABCFFFF5F /* Octicons.ttf */,
+				D42A327A153240349FBD7C41 /* Roboto_medium.ttf */,
+				990ADD07EFE9475FA9A6FB11 /* Roboto.ttf */,
+				FA0D76F17FB44A4A81193C5E /* rubicon-icon-font.ttf */,
+				BC0B0606404042B28830C441 /* SimpleLineIcons.ttf */,
+				FDD6A0C515164489AFF752CB /* Zocial.ttf */,
+				92DEB44403F34907A994FC52 /* SFUIText-Bold.otf */,
+				97D52E8A3895455AA3561F88 /* SFUIText-BoldG1.otf */,
+				A0CF1D4297904A9188517FB6 /* SFUIText-BoldG2.otf */,
+				77A9DBBF5DC44A73957F907E /* SFUIText-BoldG3.otf */,
+				E1EB79FF3D9348E180D21FFA /* SFUIText-BoldItalicG1.otf */,
+				FF9273702B824C579D58CEB9 /* SFUIText-BoldItalicG2.otf */,
+				65FEDCADF2B7479794DBCACC /* SFUIText-BoldItalicG3.otf */,
+				20B0861E6FDB453A9FC3F51C /* SFUIText-Heavy.otf */,
+				19B2DDCF7C0A4B65A8A3B741 /* SFUIText-HeavyItalic.otf */,
+				C5A5D40BEE19412195ED2CC7 /* SFUIText-Italic.otf */,
+				4C04D99C75D840B2812197DF /* SFUIText-ItalicG1.otf */,
+				90336BC02B72449CAF26CE77 /* SFUIText-ItalicG2.otf */,
+				DC130614B7284692AD3368D1 /* SFUIText-ItalicG3.otf */,
+				6BEFC653B4BC4FB7AB4027E8 /* SFUIText-Light.otf */,
+				E4CE0E4A3C4A4F788461BFCE /* SFUIText-LightItalic.otf */,
+				0A3B0C251DA74B818A244369 /* SFUIText-Medium.otf */,
+				55497DAF744C4479BBC2C974 /* SFUIText-MediumItalic.otf */,
+				77D92525D13440AD903CA27F /* SFUIText-Regular.otf */,
+				79568026A8E34E8CA3FD9B86 /* SFUIText-RegularG1.otf */,
+				5E85ACA2A9B347609056A917 /* SFUIText-RegularG2.otf */,
+				377A1AF8904042319388EE5B /* SFUIText-RegularG3.otf */,
+				DCD11063A7F2417E9066914C /* SFUIText-Semibold.otf */,
+				D72267FBE3E547B4BDC4FCC5 /* SFUIText-SemiboldItalic.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* CredpalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CredpalTests" */;
+			buildPhases = (
+				F6979A5D6CF3E2D8D2835B0A /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = CredpalTests;
+			productName = CredpalTests;
+			productReference = 00E356EE1AD99517003FC87E /* CredpalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Credpal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Credpal" */;
+			buildPhases = (
+				799B88C86E69CF67624B1DDA /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Credpal;
+			productName = Credpal;
+			productReference = 13B07F961A680F5B00A75B9A /* Credpal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* Credpal-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Credpal-tvOS" */;
+			buildPhases = (
+				98CCB609D39A88D929BA7ED0 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Credpal-tvOS";
+			productName = "Credpal-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Credpal-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* Credpal-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Credpal-tvOSTests" */;
+			buildPhases = (
+				662D7B68B5314574C86E7239 /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "Credpal-tvOSTests";
+			productName = "Credpal-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Credpal-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Credpal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Credpal */,
+				00E356ED1AD99517003FC87E /* CredpalTests */,
+				2D02E47A1E0B4A5D006451C7 /* Credpal-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Credpal-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				BCE42EA44D9448E8852EFF17 /* AntDesign.ttf in Resources */,
+				493CEB69166B48DC8F950B49 /* Entypo.ttf in Resources */,
+				6868B810AEB84A5A9CF11A3E /* EvilIcons.ttf in Resources */,
+				B9C9ADCC7C594E6CB2D545EA /* Feather.ttf in Resources */,
+				DCE15C2C4A4A439F933126ED /* FontAwesome.ttf in Resources */,
+				09116F02FF9F455C87DD4E04 /* FontAwesome5_Brands.ttf in Resources */,
+				66339C8144594BC3B1743B9A /* FontAwesome5_Regular.ttf in Resources */,
+				341AAD157A0743228EC1CF15 /* FontAwesome5_Solid.ttf in Resources */,
+				64ED3CCA47AA453DBFEBC660 /* Fontisto.ttf in Resources */,
+				5AC3A5A3CE5D4F4BA84D6825 /* Foundation.ttf in Resources */,
+				B08C77B3CCF54B9CA9CC3CFE /* Ionicons.ttf in Resources */,
+				D1F8A1E0110443B88AEA3FEE /* MaterialCommunityIcons.ttf in Resources */,
+				31EC7D3DE6C2448D8BFCA3C7 /* MaterialIcons.ttf in Resources */,
+				05255A0B42C446E9B2E4C4FC /* Octicons.ttf in Resources */,
+				0147DC04F51041F588198C1C /* Roboto_medium.ttf in Resources */,
+				A6EE6339031242CAB2DDF2C3 /* Roboto.ttf in Resources */,
+				B3A9E09A8D084DF8BE88894D /* rubicon-icon-font.ttf in Resources */,
+				DA3439ECE4014D43B27D75BC /* SimpleLineIcons.ttf in Resources */,
+				87C998C3F09B479AADC159F6 /* Zocial.ttf in Resources */,
+				696E3450618342A7A46D9754 /* SFUIText-Bold.otf in Resources */,
+				B2FE7C90186F49988CB8AC32 /* SFUIText-BoldG1.otf in Resources */,
+				DE04A362928C412A8677EDFF /* SFUIText-BoldG2.otf in Resources */,
+				672FA3C1EEC34EF0BD58B12E /* SFUIText-BoldG3.otf in Resources */,
+				578E28ED18F341FF9F3C26B1 /* SFUIText-BoldItalicG1.otf in Resources */,
+				422FFD7519A74FE1A8027791 /* SFUIText-BoldItalicG2.otf in Resources */,
+				356F6D782BD04426BE4CC12C /* SFUIText-BoldItalicG3.otf in Resources */,
+				D1342A33F87342508A44630D /* SFUIText-Heavy.otf in Resources */,
+				AA107A38C4FD4E6FBD2A32EC /* SFUIText-HeavyItalic.otf in Resources */,
+				026ABCD783094A4A983C9A71 /* SFUIText-Italic.otf in Resources */,
+				48B8EECF80654218918B0B80 /* SFUIText-ItalicG1.otf in Resources */,
+				6F3A2FF9F1914E8DABD36DA4 /* SFUIText-ItalicG2.otf in Resources */,
+				949B03DD426B4C05BC2045B3 /* SFUIText-ItalicG3.otf in Resources */,
+				96668D604FEC451F8A0CFD43 /* SFUIText-Light.otf in Resources */,
+				0B9D3CD42A0F419387BE1391 /* SFUIText-LightItalic.otf in Resources */,
+				89269268979843D899B7E330 /* SFUIText-Medium.otf in Resources */,
+				F38E8D0B92144BD4BDFD98D8 /* SFUIText-MediumItalic.otf in Resources */,
+				D1AC4A0780204FFC9A776357 /* SFUIText-Regular.otf in Resources */,
+				9451745FEDB444E7AE06CF11 /* SFUIText-RegularG1.otf in Resources */,
+				050EBA78D5174341A6FFBAD3 /* SFUIText-RegularG2.otf in Resources */,
+				256743B0E8CF43D2AF84CB95 /* SFUIText-RegularG3.otf in Resources */,
+				A7F2E1D7E8CD4275A0A3C2D5 /* SFUIText-Semibold.otf in Resources */,
+				D785B149CE87493589A25B78 /* SFUIText-SemiboldItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		662D7B68B5314574C86E7239 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Credpal-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		799B88C86E69CF67624B1DDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Credpal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98CCB609D39A88D929BA7ED0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Credpal-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6979A5D6CF3E2D8D2835B0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CredpalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* CredpalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* CredpalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Credpal */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* Credpal-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = Credpal;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F5417DC14DFC97283803EA1 /* Pods-CredpalTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CredpalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Credpal.app/Credpal";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0799F70900835D266710031 /* Pods-CredpalTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = CredpalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Credpal.app/Credpal";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5429DE886DDC8B794A326652 /* Pods-Credpal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				INFOPLIST_FILE = Credpal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Credpal;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD6998BCDE7232F4CB65D86B /* Pods-Credpal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Credpal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Credpal;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59623F71689673A4E6BA7080 /* Pods-Credpal-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Credpal-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Credpal-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DBC23B211498061288A993E /* Pods-Credpal-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Credpal-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Credpal-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFAF753A0FE637B8550D0866 /* Pods-Credpal-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Credpal-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Credpal-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Credpal-tvOS.app/Credpal-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE9C2509492FD1884D3C65B /* Pods-Credpal-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Credpal-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Credpal-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Credpal-tvOS.app/Credpal-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CredpalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Credpal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Credpal-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Credpal-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Credpal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
