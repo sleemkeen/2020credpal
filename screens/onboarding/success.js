@@ -60,7 +60,7 @@ render() {
                </View>
 
                <View style={[styles.flex, styles.mt5, styles.ph3]}>
-                   <Button style={[styles.whiteBg, styles.center]} onPress={()=> navigate('CompleteProfile')}>
+                   <Button style={[styles.whiteBg, styles.center]} onPress={()=> navigate('Dashboard')}>
                        <Text style={[styles.primaryText, styles.meduim]}>GO TO DASHBOARD</Text>
                    </Button>
                </View>

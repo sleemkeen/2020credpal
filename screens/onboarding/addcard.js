@@ -90,7 +90,7 @@ render() {
             </ScrollView>
 
             <View style={[styles.end, styles.center]}>
-                    <Button style={[styles.primaryBg, styles.center, styles.Btnwidth,styles.commonMargin]} onPress={()=> navigate('Bvn')}>
+                    <Button style={[styles.primaryBg, styles.center, styles.Btnwidth,styles.commonMargin]} onPress={()=> navigate('Success')}>
                         <Text style={[styles.whiteText, styles.meduim]}>ADD CARD</Text>
                     </Button>
                     <View style={[styles.row]}>

@@ -23,6 +23,9 @@ export default {
     dangerText:{
         color:'#FE2B5E'
     },
+    TomatoText:{
+        color:'#FF670F'
+    },
     formText:{
         color:'#222222'
     },
@@ -74,7 +77,7 @@ export default {
         marginBottom: (isIphoneX) ? '8%' : (Platform.OS == 'android') ? 0 : '2%',
 
     },
-
+   
     Homem2:{
         marginTop: (isIphoneX) ? 80 : (Platform.OS == 'android') ? 40 : 60,
         marginBottom: (isIphoneX) ? '9%' : (Platform.OS == 'android') ? 20 : '4%',
@@ -107,6 +110,10 @@ export default {
     container: {
         paddingHorizontal: 30,
         flex:1
+    },
+    containerFlex: {
+        paddingHorizontal: 30,
+        flex: (height > 700) ? 1.40 : 2.6 ,
     },
     pdd:{
         paddingHorizontal: 30,
@@ -346,6 +353,12 @@ export default {
 
     bgMaster:{
         backgroundColor: '#F4F6FE'
+    },
+    sectionraduis:{
+        borderRadius: 30
+    },
+    mb2:{
+        marginBottom: 25
     }
 
 

@@ -79,7 +79,7 @@ render() {
             </ScrollView>
 
             <View style={[styles.end,styles.center]}>
-                    <Button style={[styles.primaryBg, styles.center, styles.Btnwidth,styles.commonMargin]} onPress={()=> navigate('Bvn')}>
+                    <Button style={[styles.primaryBg, styles.center, styles.Btnwidth,styles.commonMargin]} onPress={()=> navigate('Employment')}>
                         <Text style={[styles.whiteText, styles.meduim]}>NEXT</Text>
                     </Button>
                     <View style={[styles.row]}>

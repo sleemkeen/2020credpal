@@ -61,6 +61,10 @@ render() {
                   </TouchableOpacity>
                 </View>
             </View>
+
+            <View>
+              
+            </View>
           </View>
         </SafeAreaProvider>
 
