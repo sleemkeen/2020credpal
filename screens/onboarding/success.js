@@ -60,7 +60,7 @@ render() {
                </View>
 
                <View style={[styles.flex, styles.mt5, styles.ph3]}>
-                   <Button style={[styles.whiteBg, styles.center]} onPress={()=> navigate('Dashboard')}>
+                   <Button style={[styles.whiteBg, styles.center,Inlinestyles.elevation ]} onPress={()=> navigate('Drawer')}>
                        <Text style={[styles.primaryText, styles.meduim]}>GO TO DASHBOARD</Text>
                    </Button>
                </View>
@@ -82,51 +82,10 @@ const Inlinestyles = StyleSheet.create({
       paddingTop: 65,
       backgroundColor: 'white',
     },
-    labelInput: {
-      
+    elevation: {
+      elevation:0
     },
-    formInput: {    
-      borderBottomWidth: 1.0, 
-      marginRight: 20,
-      width: width * 0.4,
-      
-    },
-    input: {
-      borderWidth: 0,
-      
-    },
-    textInput:{
-        position: 'relative',
-    },
-    checkbox:{
-      marginTop:35,
-      flexDirection:'row',
-      paddingLeft:0,
-      margin:0
-    },
-    checkBox:{
-      color:'red'
-    },
-    borderStyleBase: {
-        width: 30,
-        height: 45
-      },
     
-      borderStyleHighLighted: {
-        borderColor: "#03DAC6",
-      },
-    
-      underlineStyleBase: {
-        width: 30,
-        height: 45,
-        borderWidth: 0,
-        borderBottomWidth: 1,
-       
-      },
-    
-      underlineStyleHighLighted: {
-        borderColor: "#03DAC6",
-      },
   
   });
 

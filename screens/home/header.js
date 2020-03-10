@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import {  View, Text } from 'react-native';
+import {  View, Text, TouchableWithoutFeedback } from 'react-native';
 import styles from '../../styles';
 import {Svg} from "../../controllers/svg";
 import {SvgXml, inlineStyles} from 'react-native-svg';
@@ -21,10 +21,11 @@ export default class header extends PureComponent {
                     <Text style={[styles.h1, styles.bold, styles.headerText]}>Daniel</Text>
 
                 </View>
-                
+                <TouchableWithoutFeedback  onPress={() => this.props.propnavigate.toggleDrawer()}>
                 <View style={[styles.right]}>
                     <SvgXml xml={Svg.hambuger} style={{marginVertical: 20}} />
                 </View>
+                </TouchableWithoutFeedback>
             </View>
       </View>
     );

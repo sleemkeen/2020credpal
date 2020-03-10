@@ -17,7 +17,7 @@ import Addcard from '../screens/onboarding/addcard'
 import Success from '../screens/onboarding/success'
 import Login from '../screens/auth/login'
 import Pin from '../screens/auth/pin'
-import Dashboard from '../screens/home/dashboard'
+import Drawer from './drawer';
 
 
 
@@ -31,7 +31,6 @@ import Dashboard from '../screens/home/dashboard'
     Landing: { screen: Landing }, 
     Signup: { screen: Signup }, 
     Verify: { screen: Verify }, 
-
     Account: { screen: Account },
     CompleteProfile: { screen: CompleteProfile }, 
     Bvn: { screen: Bvn }, 
@@ -42,12 +41,7 @@ import Dashboard from '../screens/home/dashboard'
     Login: { screen: Login }, 
     Pin: { screen: Pin },
 
-    Dashboard: { screen: Dashboard }, 
-
-
-
-
-    
+    Drawer: { screen: Drawer },
 
 
 

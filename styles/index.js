@@ -93,6 +93,7 @@ export default {
     },
     customBottom:{
         marginBottom: (isIphoneX) ? '8%' : (Platform.OS == 'android') ? 30 : '2%',
+        elevation:0,
     },
     bgMargin:{
         marginVertical:(height > 700) ? '20%' : '10%' ,
@@ -167,6 +168,7 @@ export default {
         paddingHorizontal:27,
         paddingVertical:15,
         borderRadius:5,
+        elevation:0
 
     },
     end:{
@@ -180,7 +182,8 @@ export default {
         marginTop: -150,
     },
     Btnwidth:{
-        width: '40%'
+        width: '40%',
+        elevation:0
     },
     textCenter:{
         textAlign: 'center'
@@ -359,6 +362,12 @@ export default {
     },
     mb2:{
         marginBottom: 25
+    },
+    absolute:{
+        position:'absolute'
+    },
+    relative:{
+        position:'relative'
     }
 
 

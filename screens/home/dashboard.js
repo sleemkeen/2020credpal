@@ -76,11 +76,12 @@ export default class dashboard extends PureComponent {
 }
 
   render() {
+    var navigate = this.props.navigation;
     return (
       <ScrollView>
         
       <View style={[styles.bgMaster, styles.containerFlex, styles.sectionraduis]}>
-          <Header />
+          <Header propnavigate={navigate} />
           <View style={[styles.center]}>
           <LinearGradient colors={['#274FED', '#1439CA']} style={inline.card}>
             <Text style={inline.title}>Amount Due</Text>
@@ -272,6 +273,7 @@ const inline = StyleSheet.create({
           borderColor:'rgba(255, 255, 255, 0.1)',
           backgroundColor:'transparent',
           borderWidth:1,
+          elevation:0
         },
         btnbg:{
           marginRight:10,
@@ -319,6 +321,7 @@ const inline = StyleSheet.create({
         },
         viewmore:{
           backgroundColor:'rgba(244, 246, 254, 1)',
+          elevation:0
         },
         textblue:{
           color:'#274FED',
@@ -389,7 +392,8 @@ const inline = StyleSheet.create({
         },
         sharebutton:{
           backgroundColor:'#544BD8',
-          alignItems:'center'
+          alignItems:'center',
+          elevation:0
         },
         buttonCenter:{
           color:'#fff',

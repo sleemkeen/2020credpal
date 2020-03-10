@@ -41,8 +41,8 @@ render() {
       return(
 
         <TouchableWithoutFeedback onPress={Keyboard.dismiss} accessible={false}>
-          <View style={[styles.flex]}>
-        <ScrollView style={{flex: 1}} alwaysBounceVertical={true} showsVerticalScrollIndicator={false}>
+          <View>
+        <ScrollView alwaysBounceVertical={true} showsVerticalScrollIndicator={false}>
            <View style={[styles.container]}>
             
            <View style={[styles.custom2, styles.row]}>
@@ -94,15 +94,7 @@ render() {
                 </View>
 
 
-
-               
-               </View>
-
-           </View>
-           
-        </ScrollView>
-
-        <View style={[styles.end, styles.center]}>
+                <View style={[styles.end, styles.center]}>
                     <Button style={[styles.primaryBg, styles.center, styles.Btnwidth,styles.commonMargin]} onPress={()=> navigate('Addcard')}>
                         <Text style={[styles.whiteText, styles.meduim]}>NEXT</Text>
                     </Button>
@@ -111,6 +103,17 @@ render() {
 
                     </View>
             </View>
+
+
+
+               
+               </View>
+
+           </View>
+           
+        </ScrollView>
+
+       
         </View> 
 
         </TouchableWithoutFeedback>
